@@ -1,0 +1,9 @@
+{
+  "name": "aquariumtech",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "mqtt":"1.7.2",
+    "cron": "1.0.0"
+  }
+}
