@@ -21,6 +21,7 @@ AmCharts.ready(function() {
   graph1.bulletBorderThickness = 2;
   graph1.lineThickness = 2;
   graph1.lineAlpha = 0.5;
+  graph1.type = "smoothedLine";
   chart.addGraph(graph1);
 
   // CATEGORY AXIS
