@@ -2,7 +2,7 @@ var mqtt    = require('mqtt');
 var client  = mqtt.connect('mqtt://test.mosquitto.org');
 var CronJob = require('cron').CronJob;
 
-mqttTopic = 'technetium/test/aquariumtech';
+mqttTopic = 'technetium/testing';
 
 new CronJob('00 * * * * *', function() {
 
@@ -15,7 +15,7 @@ new CronJob('00 * * * * *', function() {
   { "device" :
      {
        "zigbeeId" : 'fakedevice123',
-       "measuresType" : "101.Aquarium",
+       "measuresType" : 101,
        "timeStamp" : new Date(),
        "measures" :
        {
